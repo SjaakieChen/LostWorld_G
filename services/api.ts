@@ -1,5 +1,5 @@
 const API_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://your-backend-url.com'  // Replace with your actual backend URL when deployed
+  ? 'https://sjaakiechen.github.io/LostWorld_G'  // Your GitHub Pages URL
   : 'http://localhost:3001';
 
 export const generateResponse = async (prompt: string): Promise<string> => {
